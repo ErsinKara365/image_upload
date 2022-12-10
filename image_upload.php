@@ -1,6 +1,6 @@
 <?php 
 
-include "connect.php";
+$db = new PDO('mysql:host=localhost;dbname=database', "root", "");
 session_start();
 ob_start();
 
